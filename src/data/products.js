@@ -87,14 +87,4 @@ export const products = [
     rating: 4.4,
     image: "/src/assets/vase.jpg",
   },
-
-
-  {
-    id: 12,
-    name: "Asian Shoe",
-    price: 34.5,
-    category: "Footwear",
-    rating: 4.4,
-    image: "/src/assets/shoes.jpg",
-  }
 ];

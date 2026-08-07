@@ -9,13 +9,13 @@ const ProductCard = ({ product }) => {
     <div className="group overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg">
       <div className="relative h-52 overflow-hidden bg-slate-100">
         <img
-          src={product.image}
+          src={product.image || "/src/assets/tee.jpg"}
           alt={product.name}
           className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
           onError={(e) => {
-            e.target.src =
-              "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500";
-          }}/>
+            e.target.src = "/src/assets/tee.jpg";
+          }}
+        />
       </div>
 
       <div className="p-5 flex min-h-210px flex-col justify-between gap-4">
