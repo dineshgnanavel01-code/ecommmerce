@@ -1,3 +1,15 @@
+import speaker from "../assets/speaker.jpg";
+import shoes from "../assets/shoes.jpg";
+import earbuds from "../assets/earbuds.jpg";
+import phone from "../assets/phone.jpg";
+import bag from "../assets/bag.jpg";
+import shampoo from "../assets/shampoo.jpg";
+import mouse from "../assets/mouse.jpg";
+import tee from "../assets/tee.jpg";
+import lamp from "../assets/lamp.jpg";
+import watch from "../assets/watch.jpg";
+import vase from "../assets/vase.jpg";
+
 export const products = [
   {
     id: 1,
@@ -5,7 +17,7 @@ export const products = [
     price: 89.99,
     category: "Electronics",
     rating: 4.7,
-    image: "/src/assets/speaker.jpg",
+    image: speaker,
   },
   {
     id: 2,
@@ -13,7 +25,7 @@ export const products = [
     price: 129.5,
     category: "Footwear",
     rating: 4.6,
-    image: "/src/assets/shoes.jpg",
+    image: shoes,
   },
   {
     id: 3,
@@ -21,7 +33,7 @@ export const products = [
     price: 89.99,
     category: "Electronics",
     rating: 4.4,
-    image: "/src/assets/earbuds.jpg",
+    image: earbuds,
   },
   {
     id: 4,
@@ -29,7 +41,7 @@ export const products = [
     price: 799.0,
     category: "Electronics",
     rating: 4.9,
-    image: "/src/assets/phone.jpg",
+    image: phone,
   },
   {
     id: 5,
@@ -37,7 +49,7 @@ export const products = [
     price: 54.99,
     category: "Accessories",
     rating: 4.5,
-    image: "/src/assets/bag.jpg",
+    image: bag,
   },
   {
     id: 6,
@@ -45,7 +57,7 @@ export const products = [
     price: 19.95,
     category: "Beauty",
     rating: 4.3,
-    image: "/src/assets/shampoo.jpg",
+    image: shampoo,
   },
   {
     id: 7,
@@ -53,7 +65,7 @@ export const products = [
     price: 49.99,
     category: "Electronics",
     rating: 4.7,
-    image: "/src/assets/mouse.jpg",
+    image: mouse,
   },
   {
     id: 8,
@@ -61,7 +73,7 @@ export const products = [
     price: 24.99,
     category: "Apparel",
     rating: 4.2,
-    image: "/src/assets/tee.jpg",
+    image: tee,
   },
   {
     id: 9,
@@ -69,7 +81,7 @@ export const products = [
     price: 39.99,
     category: "Home & Living",
     rating: 4.6,
-    image: "/src/assets/lamp.jpg",
+    image: lamp,
   },
   {
     id: 10,
@@ -77,7 +89,7 @@ export const products = [
     price: 149.99,
     category: "Electronics",
     rating: 4.7,
-    image: "/src/assets/watch.jpg",
+    image: watch,
   },
   {
     id: 11,
@@ -85,6 +97,6 @@ export const products = [
     price: 34.5,
     category: "Home & Living",
     rating: 4.4,
-    image: "/src/assets/vase.jpg",
+    image: vase,
   },
 ];
