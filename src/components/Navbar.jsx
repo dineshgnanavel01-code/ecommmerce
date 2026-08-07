@@ -10,7 +10,7 @@ const Navbar = ({ onOpenCart }) => {
         <div className="flex items-center gap-3">
       
           <h1 className="text-xl font-bold text-slate-800">
-            Dina E-Shop
+            Agent Store
           </h1>
         </div>
 
