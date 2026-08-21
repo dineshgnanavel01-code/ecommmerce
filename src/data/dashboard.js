@@ -22,6 +22,13 @@ export const salesDistribution = [
   { label: "Accessories", value: 14 },
 ];
 
+export const paymentDistribution = [
+  { label: "Credit Card", value: 48 },
+  { label: "UPI", value: 28 },
+  { label: "PayPal", value: 15 },
+  { label: "Cash", value: 9 },
+];
+
 export const orders = [
   { id: "#ORD-10482", customer: "Olivia Martin", product: "Wireless ANC Headphones", date: "Aug 21, 2026", amount: "$199.99", status: "Delivered" },
   { id: "#ORD-10481", customer: "Ethan Williams", product: "5G Smartphone 256GB", date: "Aug 21, 2026", amount: "$799.00", status: "Processing" },
