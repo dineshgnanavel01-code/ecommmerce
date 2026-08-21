@@ -5,6 +5,16 @@ export const stats = [
   { label: "Total Products", value: "1,248", change: "+4.2%", icon: "products", tone: "amber" },
 ];
 
+export const weeklySales = [
+  { day: "Mon", sales: 3200 },
+  { day: "Tue", sales: 4100 },
+  { day: "Wed", sales: 2800 },
+  { day: "Thu", sales: 5200 },
+  { day: "Fri", sales: 4600 },
+  { day: "Sat", sales: 6200 },
+  { day: "Sun", sales: 5100 },
+];
+
 export const salesDistribution = [
   { label: "Electronics", value: 42 },
   { label: "Fashion", value: 26 },
